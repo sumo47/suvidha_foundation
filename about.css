@@ -1,0 +1,594 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ /* navbar */
+.top-nav{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    zoom: 80%;
+}
+
+.info{
+    height: 40px;
+    background-color: rgb(228,237,248);
+    color: rgb(58, 77, 98);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+nav{
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.logo img{
+    height: 60px;
+    width: 280px;
+}
+
+.nav-link{
+    margin: 0 auto;
+}
+.nav-link a{
+    font-size: 20px;
+    margin:20px;
+    transition: color 0.3s;
+}
+
+.nav-link .nav-item:focus, .nav-link .nav-item:active{
+    color: #898989;
+    outline: none;
+}
+
+.nav-link a:hover{
+    color: #898989;
+}
+
+/* header */
+header{
+    height: 273px;
+    width: 1280px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.justified-text{
+    color: #1D2130;
+    font-size: 16px;
+    /* line-height: 160%; */
+    width: 562px;
+    text-align: justify;
+    opacity: 60%;
+}
+
+.bottom-row{
+    margin-left: 100px;
+}
+
+.line-after {
+    position: relative;
+    display: inline-block;
+}
+
+.line-after::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 730%;
+    height: 1px;
+    background-color: #c7c5c5;
+    margin-left: 20px;
+}
+
+
+.about{
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* video */
+.video, video{
+    height: 448px;
+    width: 1280px;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+/* our-mission-section */
+.mission{
+    height: 1091px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.our-mission-section{
+    height: 867px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #FFEBB9;
+    margin-top: -20%;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+/* rect */
+.rect{
+    margin: auto;
+    height: 257px;
+    width: 1088px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rect1{
+    height: 257px;
+    width: 496px;
+    /* border: 1px solid black; */
+}
+
+.rect-title{
+    color: #1D2130;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.rect-info{
+    font-size: 28px;
+    color: #1D2130;
+    line-height: 150%;
+    font-weight: bold;
+}
+
+.rect1 p{
+    font-size: 16px;
+    color: #1D2130;
+    line-height: 160%;
+    opacity: 70%;
+}
+
+/* supporter */
+.bottom-row{
+    margin-left: 100px;
+    padding-bottom: 4%;
+}
+
+.upes{
+    height: 120px;
+    margin-left: 180px;
+    margin-top: -30px;
+}
+
+.op-jindal{
+    height: 50px;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+/* award-section */
+.award-section{
+    width: 1114.25px;
+    height: 305px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.award-section .title{
+   text-align: center;
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 120%;
+}
+
+.awards-row{
+    height: 199px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.award{
+    height: 199px;
+    width: 120px;
+    /* border: 1px solid black; */
+}
+
+.award img{
+    height: 92px;
+    width: 111px;
+    object-fit: cover;
+}
+
+.award i{
+    position: relative;
+    left: 40px;
+    top: 52px;
+    font-size: 26px;
+}
+
+.award3 i{
+    left: 44px;
+}
+
+.award4 i{
+    left: 44px;
+}
+
+
+
+.award-date{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 160%;
+    text-align: center;
+}
+
+.award-title{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 160%;
+    text-align: center;
+}
+
+.award p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 160%;
+    text-align: center;
+    opacity: 60%;
+}
+
+/* our-journey-section */
+.statsSection{
+    height: 567px;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    height: 284px;
+    width: 633px;
+    margin: 100px;
+}
+
+.statsSection p{
+    color: rgb(153,153,153);
+}
+
+.statsSection section{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.labels {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* Set three columns for the first row */
+    grid-auto-columns: 1fr; /* Distribute remaining space equally */
+    grid-gap: 20px; /* Set gap between grid items */
+    margin-top: 10%;
+}
+
+.label {
+    width: 100%; /* Ensure labels take full width of grid item */
+}
+
+.label > div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align:text-top;
+}
+
+.label > span {
+    vertical-align: middle;
+    color: white; /* Set text color */
+}
+
+/* our-team-section */
+.our-team-section{
+    width: 1280px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.our-team-section p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.team-intro{
+    text-align: center;
+    color: #525560;
+    opacity: 60%;
+    margin-bottom: 2%;
+}
+
+/* team-members */
+.team-members{
+    width: 1280px;
+    height: 431px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+ }
+
+ /* team-member */
+.team-member{
+    height: 431px;
+    width: 296px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team-member img{
+    height: 320px;
+    width: 296px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    text-align: center;
+}
+
+.position{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 60%;
+    text-align: center;
+}
+
+.social-row{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* cta */
+.cta{
+    height: 384px;
+    width: 1280px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    zoom: 80%;
+}
+
+.volunteer{
+    height: 384px;
+    width: 1280px;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.volunteer h1{
+    font-size: 48px;
+}
+
+.buttons{
+    width: 347px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contribute{
+    margin: 0 auto;
+    width: 805px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+/* footer */
+footer{
+    zoom: 80%;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235,202,98);
+    padding: 15px;
+ }
+ 
+ .box:hover{
+     background-color: rgba(235, 203, 98, 0.844);
+ }
+ 
+ .contact-logo{
+     display: flex;
+     column-gap: 1rem;
+     justify-content: center;
+ }
+ 
+ .logo-box{
+     display: flex;
+     background-color: #292929;
+     border-radius: 50%;
+     height: 48px;
+     width: 48px;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .logo-box svg{
+     display: flex;
+     height: 24px;
+     width: 24px;
+ }
+ 
+ 
+ 
+ .logo-box:hover{
+     background-color: rgba(77, 77, 77, 255);
+ }
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800);
+.testimonial2 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.testimonial2 h1,
+.testimonial2 h2,
+.testimonial2 h3,
+.testimonial2 h4,
+.testimonial2 h5,
+.testimonial2 h6 {
+  color: #3e4555;
+}
+
+.testimonial2 h5 {
+    line-height: 22px;
+    font-size: 18px;
+		font-weight: 400;
+}
+
+.testimonial2 .font-weight-medium {
+  font-weight: 500;
+}
+
+.testimonial2 .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.testimonial2 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.testimonial2 .testi2 .image-thumb {
+  background: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/greadint-bg.png) no-repeat top center;
+  text-align: center;
+  padding: 10% 0;
+}
+
+.testimonial2 .testi2 .image-thumb img {
+  width: 400px;
+}
+
+.testimonial2 .testi2 .owl-dots {
+  display: inline-block;
+  position: relative;
+  top: -100px;
+}
+
+.testimonial2 .testi2 .owl-dots .owl-dot {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  margin-right: 10px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.testimonial2 .testi2 .owl-dots .owl-dot span {
+  display: none;
+}
+
+.testimonial2 .testi2 .owl-dots .owl-dot.active,
+.testimonial2 .testi2 .owl-dots .owl-dot:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .testimonial2 .testi2 .owl-dots {
+    top: 0px;
+  }
+}
+
+.testimonial2 .btn-md {
+    padding: 18px 0px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.testimonial2 .btn-danger {
+    background: #ff4d7e !important;
+    border: 1px solid #ff4d7e !important;
+}
+
+.arrow{
+    border-radius: 50%;
+    padding: 25px;
+    background-color: rgb(235,202,98);
+}
+
+.testimonial2{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.testimonial h1{
+    font-size: 60px; 
+    font-weight: bold; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 100px;
+}
+
